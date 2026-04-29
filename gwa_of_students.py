@@ -4,15 +4,22 @@ class StudentGWA:
 
     def get_highest(self):
         highest_name = ""
-        highest_gwa = float('inf')
+        highest_gwa = 5.0
 
         with open(self.file_name, 'r') as file:
             for line in file:
-                name, gwa = line.strip().split(',')
-                gwa = float(gwa)
+                line = line.strip()
+                if not line or ',' not in line:
+                    continue
 
-                if gwa < highest_gwa:
+                # Paghati sa pangalan at grade
+                name, gwa_str = line.split(',')
+                gwa = float(gwa_str)
+
+
+                if gwa <= highest_gwa:
                     highest_gwa = gwa
                     highest_name = name
+
 
         return highest_name, highest_gwa
