@@ -5,3 +5,5 @@ class StudentGWA:
     def get_highest(self):
         highest_name = ""
         highest_gwa = float('inf')
+
+        with open(self.file_name, 'r') as file:
