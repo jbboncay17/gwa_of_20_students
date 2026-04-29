@@ -1,0 +1,20 @@
+1. Juan Dela Cruz,1.75
+2.  Maria Santos,1.50
+3.  Pedro Reyes,2.00
+4.  Ana Lopez,1.25
+5.  Mark Garcia,2.25
+6.  Liza Ramos,1.80
+7.  Carlo Mendoza,1.60
+8.  Bea Torres,1.45
+9.  James Aquino,2.10
+10. Sofia Castillo ,1.30
+11. Daniel Flores,1.90
+12. Angela Cruz,1.55
+13. Kevin Diaz,2.20
+14. Nicole Herrera,1.40
+15. Patrick Navarro,1.85
+16. Jasmine Ortiz,1.35
+17. Ryan Gutierrez,2.05
+18. Chloe Villanueva,1.28
+19. Ethan Bautista,1.70
+20. Grace Fernandez,1.33
