@@ -12,7 +12,7 @@ class StudentGWA:
                 if not line or ',' not in line:
                     continue
 
-                # Paghati sa pangalan at grade
+                
                 name, gwa_str = line.split(',')
                 gwa = float(gwa_str)
 
